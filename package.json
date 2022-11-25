@@ -1,0 +1,30 @@
+{
+  "name": "nomail",
+  "version": "1.0.0",
+  "description": "NodeMailer RestAPI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ferdiwardiyan/nomail.git"
+  },
+  "keywords": [
+    "nodemailer",
+    "restapi",
+    "nodejs"
+  ],
+  "author": "ferdiwardiyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ferdiwardiyan/nomail/issues"
+  },
+  "homepage": "https://github.com/ferdiwardiyan/nomail#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemailer": "^6.8.0",
+    "ssl-express-www": "^3.0.10"
+  }
+}
